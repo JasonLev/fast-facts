@@ -1,13 +1,17 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "fast-facts",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "A Gameshow app built with Gatsby",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Jason L",
   "dependencies": {
+    "@material-ui/core": "^4.9.9",
+    "@material-ui/styles": "^4.9.6",
     "gatsby": "^2.20.12",
+    "gatsby-cli": "^2.11.5",
     "gatsby-image": "^2.3.1",
     "gatsby-plugin-manifest": "^2.3.3",
+    "gatsby-plugin-material-ui": "^2.1.6",
     "gatsby-plugin-offline": "^3.1.2",
     "gatsby-plugin-react-helmet": "^3.2.1",
     "gatsby-plugin-sharp": "^2.5.3",
@@ -37,8 +41,5 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/gatsbyjs/gatsby-starter-default"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
   }
 }

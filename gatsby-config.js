@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Fast Facts`,
+    description: `Gameshow`,
+    author: `Jason L`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -11,6 +11,19 @@ module.exports = {
       options: {
         name: `images`,
         path: `${__dirname}/src/images`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-material-ui`,
+      options: {
+        theme: {
+          // material-ui theme
+          palette: {
+            primary: {
+              main: "#BA3D3B", // or whatever colors you need
+            },
+          },
+        },
       },
     },
     `gatsby-transformer-sharp`,
