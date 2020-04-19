@@ -17,7 +17,7 @@ const IndexPage = () => (
       </div>*/}
     <div>
       <Link
-        to="/new-episode/"
+        to="/new-episode-form/"
         style={{
           color: `white`,
           textDecoration: `none`,
